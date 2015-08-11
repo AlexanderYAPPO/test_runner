@@ -1,0 +1,8 @@
+  KeystoneBasic.create_delete_user:
+    -
+      args:
+        name_length: 10
+      runner:
+        type: $type_name
+        times: $times
+        $type_param

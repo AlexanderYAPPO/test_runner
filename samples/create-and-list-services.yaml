@@ -1,0 +1,9 @@
+  KeystoneBasic.create_and_list_services:
+    -
+      args:
+        service_type: "Rally_test_type"
+        description: "test_description"
+      runner:
+        type: $type_name
+        times: $times
+        $type_param
